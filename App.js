@@ -7,9 +7,41 @@ export default function App() {
     <View style={styles.container}>
     <Image
       source={require('C:/projeto_custom/projeto_custom/assets/sol.png')}
-      style={{width: 80, height: 80 }}
+      style={{
+        width: 80,
+        height: 80,
+        }}
     />
+
+    <Image
+      source={require('C:/projeto_custom/projeto_custom/assets/sol entre nuvens.png')}
+      style={{
+        width: 80,
+        height: 80,
+        }}
+    />
+    
+    <Image
+      source={require('C:/projeto_custom/projeto_custom/assets/sol com chuva.png')}
+      style={{
+        width: 100,
+        height: 100,
+        }}
+    />
+
+    <Image
+      source={require('C:/projeto_custom/projeto_custom/assets/sol.png')}
+      style={{
+        width: 80,
+        height: 80,
+        }}
+    />
+
     </View>
+
+
+
+
   );
 }
 
